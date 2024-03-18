@@ -10,4 +10,4 @@ public partial class Type
     public string Name { get; set; } = null!;
 
     public virtual ICollection<TherapeuticDiagnostic> TherapeuticDiagnostics { get; set; } = new List<TherapeuticDiagnostic>();
-}
+} 
